@@ -1,0 +1,13 @@
+.explain{
+    width: 100%;
+    padding-top: 100px;
+    color:black;
+}
+.explain .explainChinese{
+    margin-left: 32%;
+    font:80px "微软雅黑";
+}
+.explain .explainEnglish{
+    margin-left: 28%;
+    font:50px "微软雅黑";
+}

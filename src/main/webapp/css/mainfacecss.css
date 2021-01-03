@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+    width:100%;
+    height: 100%;
+    position: relative;
+}
+.logout{
+    margin-left:95%;
+    position: absolute;
+    z-index: 999;
+}
+.logout input{
+    border: 0;
+}
+.explain{
+    position: relative;
+    padding-top: 100px;
+    padding-left: 13%;
+    color:black;
+    font:80px "微软雅黑";
+}
+
+.content{
+    margin-top: 8%;
+    width: 100%;
+    height: 50%;
+}
+.content .select{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 35%;
+    color:black;
+    font:80px "微软雅黑";
+}
+.content .select .selectlinkman{
+    width: 120px;
+    height: 40px;
+
+    font:20px "微软雅黑";
+    outline-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    BACKGROUND-COLOR: transparent;
+
+}
+.content .select .selectlinkman option{
+    border-radius: 10px;
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    background: lightpink;
+}
+.content .select .selectcontent{
+    margin-left: 10px;
+    display: flex;
+    width: 300px;
+    height: 40px;
+}
+input{
+
+    font: 20px "微软雅黑";
+    outline-style: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    BACKGROUND-COLOR: transparent;
+}
+
+input:focus{
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    background: lightblue;
+}
+.content .selectcontent .selectbutton{
+    margin-left: 10px;
+    width: 120px;
+    height: 40px;
+    background: lightblue;
+    border: 0;
+}
+
+.content .linkman{
+    /*margin-left: 35%;*/
+    margin-top: 20px;
+
+}
+
+.content .linkman table{
+    font: 15px "微软雅黑";
+
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.content .linkman table tr th{
+    font: 18px "微软雅黑";
+    background-color:rgba(255, 255, 255, 0.7);
+}
+.content .linkman table tr th:last-child input{
+    width: 80px;
+    height: 40px;
+    background-color:rgba(128, 128, 128, 0.3);
+    border: 0;
+    font: 16px "微软雅黑";
+}
+.content .linkman table tr td{
+    background-color:rgba(255, 182, 193, 0.7);
+}
+.content .linkman table tr td:last-child input{
+    width: 50px;
+    height: 30px;
+    border: 0;
+}
+.content .linkman table tr td:last-child input:first-child{
+    background-color: #bfffe6;
+    font: 15px "微软雅黑 Light";
+}
+.content .linkman table tr td:last-child input:last-child{
+    margin-left: 10px;
+    background-color: #ff8a8a;
+    font: 15px "微软雅黑 Light";
+}
+
+.content .linkman .changepage{
+    padding-left: 10%;
+}
+.content .linkman .changepage input{
+    border: 0;
+}
+.content .linkman .changepage input:last-child{
+    margin-left: 25%;
+}
